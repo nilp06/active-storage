@@ -1,0 +1,10 @@
+<%= render "shared/errors" ,object: user %>
+<%= form_with model: user do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name, class: "form-control", placeholder: "Enter Name" %>
+  <%= form.label :email %>
+  <%= form.email_field :email, class: "form-control", placeholder: "Enter Email" %>
+  <%= form.label :avtar %>
+  <%= form.file_field :avtar, class: "form-control" %>
+  <%= form.submit "Submit", class: "btn btn-primary my-2" %>
+<% end %>
