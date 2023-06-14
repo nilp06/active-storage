@@ -74,3 +74,5 @@ end
 gem "bootstrap", "~> 5.2"
 
 gem "pry", "~> 0.14.2"
+
+gem "semantic-ui-sass", "~> 2.4"

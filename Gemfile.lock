@@ -193,6 +193,8 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    semantic-ui-sass (2.4.4.0)
+      sassc
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -244,6 +246,7 @@ DEPENDENCIES
   rails (~> 7.0.5)
   redis (~> 4.0)
   selenium-webdriver
+  semantic-ui-sass (~> 2.4)
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
