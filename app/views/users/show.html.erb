@@ -1,4 +1,21 @@
 <div class="container">
   <h1 class="text-center"> User </h1>
-  <%= image_tag @user.avtar, alt: "User avtar" %>
+  <table>
+    <tbody>
+      <tr>
+        <td>Name</td>
+        <td><%= @user.name %></td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td><%= @user.email %></td>
+      </tr>
+      <tr>
+        <td>Avtar</td>
+        <td>
+          <%= image_tag @user.avtar, alt: "User avtar" %>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
